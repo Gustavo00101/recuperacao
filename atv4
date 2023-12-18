@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+
+struct dados_do_aluno {
+    char nome [200];
+    int idade;
+};
+
+
+
+int main (){
+    
+    struct dados_do_aluno alunos;
+    
+    printf (" digite seu nome:");
+    gets (alunos.nome);
+    
+     printf (" digite sua idade:");
+      scanf ("%d",&alunos.idade);
+      
+      printf ("\ndados do aluno: \n");
+      printf ("nome:%s \n", alunos.nome);
+      printf ("idade:%d \n", alunos.idade);
+    
+    
+    
+    
+    return 0;
+}
