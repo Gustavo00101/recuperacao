@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(){
+
+int idade [2];    
+int i;
+    
+for (i = 0; i < 2; i++){   
+do { // faça
+printf ("\ndigite sua %dª idade:",i + 1);
+scanf ("%d",&idade[i]);
+
+
+if (idade[i] >= 18){
+    printf("\nmaior idade:%d", idade[i]);
+    
+}
+else {
+    printf("menor idade: %d", idade[i]);
+}
+  } while ( idade[i] > 130);// enquanto
+    
+
+}
+    return 0;
+}
